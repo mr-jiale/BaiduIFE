@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 480px;
+    background-color: #dedede;
+    font-family: "\5FAE\8F6F\96C5\9ED1", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 -8px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav li {
+    float: left;
+    font-size: 12px;
+    line-height: 60px;
+    margin-right: 24px;
+}
+
+.nav li a,
+.nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+article {
+    margin: 20px 20px 0;
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #cdcdcd;
+    box-shadow: 2px 2px 1px 0 #aaa;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 18px;
+    color: #646464;
+}
+
+.meta {
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #646464;
+}
+
+.para {
+    line-height: 1.8;
+    text-indent: 2em;
+}
+
+.u-list {
+    list-style: none;
+    padding-left: 18px;
+    margin-bottom: 18px;
+}
+
+.img-box {
+    border: 1px solid #cecece;
+    padding: 10px;
+    display: table;
+    margin-bottom: 15px;
+}
+
+.img-box p {
+    text-align: center;
+    line-height: 32px;
+}
+
+.o-list {
+    padding-left: 36px;
+    margin-bottom: 18px;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.table tr {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.table th,
+.table td:not(:last-child) {
+    border-right: 1px solid #e6e6e6;
+    padding: 5px;
+}
+
+.table tfoot {
+    background-color: #ccc;
+}
+
+aside {
+    margin: 20px 40px 0 20px;
+    padding: 20px 20px;
+    background-color: #fff;
+    border: 1px solid #cdcdcd;
+    box-shadow: 2px 2px 1px 0 #aaa;
+}
+
+aside h3 {
+    font-size: 16px;
+    color: #000;
+    padding: 10px;
+    border-left: 3px solid #ccc;
+}
+
+.form-table {
+    font-size: 12px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+}
+
+.form-table td:first-child {
+    text-align: right;
+    padding: 10px 20px;
+}
+
+.form-table input {
+    height: 20px;
+    border: 1px solid #cdcdcd;
+}
+
+.form-table td:empty ~ td {
+    color: #bbb;
+    padding-bottom: 16px;
+}
+
+.form-table textarea {
+    width: 100%;
+    height: 5em;
+}
+
+form button {
+    width: 100%;
+    height: 38px;
+    border-radius: 8px;
+    border: 1px solid ccc;
+    background-color: #3350d0;
+    color: #fff;
+    font-size: 16px;
+    font-family: "\5FAE\8F6F\96C5\9ED1", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: medium;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 3px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
