@@ -1,0 +1,79 @@
+body{
+    padding: 20px;
+    font-family: "\5FAE\8F6F\96C5\9ED1", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a,
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #5e8fdd;
+}
+
+a:hover{
+    color: #dd5044;
+}
+
+img:hover{
+    box-shadow: 0 0 5px 0 #000;
+}
+
+.team-info{
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #999;
+    font-size: 14px;
+}
+
+.team-info:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.team-meta,
+.team-description,
+.team-members{
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+
+.team-meta{
+    width: 200px;
+    float: left;
+}
+
+.photo,
+.team-logo{
+    width: 80px;
+    height: 80px
+}
+
+.team-logo{
+    vertical-align: top;
+}
+
+.team-description{
+    margin: 0 140px 0 220px;
+}
+
+.team-description p{
+    text-indent: 2em;
+}
+
+.team-members{
+    width: 120px;
+    float: right;
+}
+
+.name{
+    margin: 0;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
