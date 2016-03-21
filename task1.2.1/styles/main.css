@@ -24,13 +24,19 @@ header {
 
 .nav li {
     float: left;
-    font-size: 12px;
-    line-height: 60px;
-    margin-right: 24px;
+    padding-right: 2em;
+}
+
+.nav li:after{
+    content: "";
+    display: inline-block;
+    clear: both;
 }
 
 .nav li a,
 .nav li a:visited {
+    font-size: 12px;
+    line-height: 60px;
     text-decoration: none;
     color: #fff;
 }
